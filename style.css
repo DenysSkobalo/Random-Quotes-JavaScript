@@ -1,0 +1,45 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin: 300px 0px 0px 0px;
+    padding: 100px;
+    border-radius: 12px;
+    box-shadow: 0 0 7px 8.5px #ddd;
+    
+}
+
+.quotes-author {
+    text-align: right;
+}
+
+p {
+    font-size: 24px;
+}
+
+.generator-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 0px 0px;
+}
+
+button {
+    font-size: 24px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #000000;
+    color: white;
+    transition: 1s;
+}
+
