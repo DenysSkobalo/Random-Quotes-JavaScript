@@ -1,90 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: #5ebcf1;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(90, 223, 233);
 }
 
-.wrapper {
-    width: 600px;
+#container {
     background-color: #fff;
-    border-radius: 15px;
-    padding: 30px 30px 25px;
-}
-
-.wrapper header {
-    font-size: 35px;
-    font-weight: 600;
+    box-shadow: 0 1px 10px 11px #ddd;
+    border-radius: 12px;
+    height: 275px;
+    width: 750px;
+    margin: 200px auto;
     text-align: center;
 }
 
-.wrapper .content {
-    margin: 35px 0;
+#btn {
+    margin: 130px auto;
+    height: 50px;
+    width: 150px;
+    border-radius: 12px;
+    font-size: 22px;
+    background-color: #fff;
 }
-
-.content .quote-area {
-    display: flex;
-    justify-content: center;
-}
-i {
-    font-size: 32px;
-}
-.quote-area i:first-child {
-    margin: 0px 10px 0px 0px;
-    
-}
-.quote-area i:last-child {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0px 0px 10px 0px;
-    
-}
-
-.quote-area .quote {
-    font-size: 26px;
-    text-align: center;
-    word-break: break-all;
-}
-
-.content .author {
-    display: flex;
-    font-size: 20px;
-    font-style: italic;
-    margin-top: 20px;
-    justify-content: flex-end;
-}
-
-.author span:first-child {
-    margin: -7px 5px 0 0;
-    font-family: monospace;
-}
-
-.btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-button {
-    font-size: 18px;
-    padding: 5px;
-    border-radius: 5px;
-    border: 2px solid #5ebcf1;
-}
-
-button:hover {
-    background-color: #5ebcf1;
-    color: white;
+#btn:hover {
+    background-color: black;
+    color: #fff;
     transition: .5s ease-in-out;
-    border: 2px solid #fff;
+}
+
+#output {
+    padding: 50px 0px 0px 0px;   
+    font-size: 26px; 
+
 }
