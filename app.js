@@ -12,7 +12,7 @@ const quotes =
 
 // Add an event to the button
 // Додаємо подію кнопці
-btn.addEventListener('click', randomQuotes)
+btn.addEventListener('click', randomQuotes);
 
 // Function
 // Функція
