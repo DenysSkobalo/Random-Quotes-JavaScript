@@ -5,18 +5,23 @@ body {
     background-color: rgb(90, 223, 233);
 }
 
+h1 {
+    padding: 20px 0px 0px 0px;
+    
+}
+
 #container {
+    margin: 200px auto;
     background-color: #fff;
     box-shadow: 0 1px 10px 11px #ddd;
     border-radius: 12px;
-    height: 275px;
+    height: 500px;
     width: 750px;
-    margin: 200px auto;
     text-align: center;
 }
 
 #btn {
-    margin: 130px auto;
+    margin: 100px auto;
     height: 50px;
     width: 150px;
     border-radius: 12px;
@@ -30,7 +35,10 @@ body {
 }
 
 #output {
-    padding: 50px 0px 0px 0px;   
+    margin: 0 auto;
+    width: 600px;
+    height: 100px;
+    padding: 50px;   
     font-size: 26px; 
 
 }
